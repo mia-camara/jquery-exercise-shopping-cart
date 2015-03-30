@@ -27,42 +27,76 @@ hr {
 	height:1px; 
 	background: #fff
 }
-.item-name {
 
-}
-
-.item-price {
-
-}
-.item-qty {
-
-}
-
-/* this is the qty input from the client */
 .quantity {
 	color: black;
 
 }
+
 button {
-padding: 10px 15px 11px !important;
-font-size: 18px !important;
-background-color: #57d6c7;
-font-weight: bold;
-text-shadow: 1px 1px #57D6C7;
-color: #ffffff;
-border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border: 1px solid #57D6C7;
-cursor: pointer;
-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
--moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	margin: 0px -45px 5px 31px;
+	padding: 3px 33px 0px;
+	font-size: 18px;
+	background-color: #71B09F;
+	font-weight: normal;
+	text-shadow: 1px 1px #71B09F;
+	color: #ffffff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #71B09F;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
-.total-price-label {
 
+.cancel {
+	vertical-align: right;
+	margin: 5px;
+	padding: 2px 15px 0px;
+	font-size: 14px;
+	background-color: #71B09F;
+	font-weight: normal;
+	text-shadow: 1px 1px #71B09F;
+	color: #ffffff;
+	border-radius: 1px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #71B09F;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
-/* this will calculate the total price */
-#total-price {
 
+#new-item-create {
+	vertical-align: right;
+	margin: 0px -12px;
+	padding: 2px 15px 0px;
+	font-size: 14px;
+	background-color: #71B09F;
+	font-weight: normal;
+	text-shadow: 1px 1px #71B09F;
+	color: #ffffff;
+	border-radius: 1px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #71B09F;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.col-xs-4-col-xs-offset-3 {
+	  margin-left: 33%
+}
+
+#new-item-name {
+	color: black;
+}
+
+#new-item-price {
+	color: black;
 }
